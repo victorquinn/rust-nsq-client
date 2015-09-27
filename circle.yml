@@ -1,4 +1,4 @@
- dependencies:
+dependencies:
    post:
      - git config --global user.email mail@victorquinn.com
      - git config --global user.name "Victor Quinn"
