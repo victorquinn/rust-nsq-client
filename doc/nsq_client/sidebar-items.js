@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["config","NSQ Config"],["producer","NSQ Producer"]]});
+initSidebarItems({"mod":[["config","NSQ Config"],["connection","NSQ Connection"],["producer","NSQ Producer"]]});
