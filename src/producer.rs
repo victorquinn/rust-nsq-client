@@ -26,5 +26,6 @@ mod tests {
         let config = Config::new();
         let producer = Producer::new("localhost:4150", config);
         assert_eq!(producer.host, "localhost:4150");
+        assert_eq!(producer.config.timeout, 120);
     }
 }

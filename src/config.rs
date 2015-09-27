@@ -2,7 +2,7 @@
 
 /// Obviously most is missing from this, will fill out in time!
 pub struct Config {
-    timeout: i32,
+    pub timeout: i32,
 }
 
 impl Config {
