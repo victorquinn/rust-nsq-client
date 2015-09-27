@@ -1,3 +1,7 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
 dependencies:
    post:
      - git config --global user.email mail@victorquinn.com
