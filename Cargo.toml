@@ -1,4 +1,0 @@
-[package]
-name = "nsq-client"
-version = "0.1.0"
-authors = ["Victor Quinn <mail@victorquinn.com>"]
