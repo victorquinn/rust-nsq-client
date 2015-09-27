@@ -1,17 +1,24 @@
 //! NSQ Producer
 
 use config::Config;
+use connection::Connection;
 
 pub struct Producer {
-    host: String,
     config: Config,
+    connection: Connection,
+    host: String,
+    ready: bool,
 }
 
 impl Producer {
+    /// Create a new Producer
     pub fn new(host: &str, config: Config) -> Producer {
+        // Connect to the specified nsqd
         Producer{
-            host: host.to_string(),
             config: config,
+            connection: Connection::new(host),
+            host: host.to_string(),
+            ready: false,
         }
     }
 }

@@ -2,3 +2,11 @@
 name = "nsq-client"
 version = "0.1.0"
 authors = ["Victor Quinn <mail@victorquinn.com>"]
+
+[dependencies]
+serde = "0.6.0"
+serde_json = "0.6.0"
+
+[[test]]
+name = "producer"
+path = "test/test_producer.rs"
